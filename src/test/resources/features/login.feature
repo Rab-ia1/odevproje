@@ -19,18 +19,16 @@ Feature: to send appreciation by clicking on the Appreciation subheading from "M
     Then the user copies the link to the text box in order to add
 
 
-
   Scenario: to add mention by clicking on the Add mention icon.
 
- Given the user clicks hashtag # icon to add mention
+    Given the user clicks hashtag # icon to add mention
     Then user write mention
 
 
 
   Scenario: to send appreciation
 
-
-  Then click to send button
+    Then click to send button
 
 
 
